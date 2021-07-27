@@ -8,9 +8,6 @@ function Map({countries, casesType, center, zoom, scrollWheelZoom}) {
 
     return (
         <div className="map">
-           
-
-
             <LeafletMap center={center} zoom={zoom} scrollWheelZoom={scrollWheelZoom}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
